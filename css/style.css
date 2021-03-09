@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppins:300,400,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+
+@import url("https://fonts.googleapis.com/css?family=Arimo");
+body {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  position: relative;
+  background-color: black;
+}
+
+
+/*Navigation*/
+
+.site-nav-ul{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav-ul li{
+    display: inline;
+}
+
+a.nav-link{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 17px;
+    margin: 14px 16px;
+    padding-bottom: 0px;
+    display: inline-block;
+    position: relative;
+}
+
+a.nav-link:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+a.nav-link:hover:before{
+    visibility: visible;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .site-nav-ul li a.nav-link:not(:first-child) {
+        display: none;
+    }
+    
+    .site-nav-ul li a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+/*Home*/
+
+.home-bg-img{
+	background-image: url('../images/about-bg.png');
+	background-repeat: no-repeat;
+	height: 610px;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.home{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 65%;
+}
+
+/*.home-text h1{
+	text-align: center;
+	font-size: 35px;
+	margin: 0;
+}
+.home-text h3{
+	text-align: center;
+	font-size: 22px;
+	margin: 0;
+	margin-top: 5px;
+}*/
+
+
+@media screen and (max-width: 800px){
+    .site-nav-ul.responsive {
+        position: relative;
+    }
+    .site-nav-ul.responsive li a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .site-nav-ul.responsive li a.nav-link {
+        float: none;
+        display: block;
+        text-align: left ;
+    }
+}
+
+/*Projects*/
+
+.project-heading h1{
+	font-size: 32px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+.column{
+	flex: 33%;
+	max-width: 33%;
+	padding: 2px;
+	float: left;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width:600px){
+	.column{
+		flex: 100%;
+		max-width: 100%;
+	}
+}
+
+/*About Me*/
+
+.pro-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pro-row{
+	width: 1280;
+	height: 520px;
+	margin: 10px;
+	color: white;
+	border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+	box-shadow: 20px 20px rgba(0,0,0,.15);
+	transition: all .4s ease;
+	color: white;
+}
+
+/*
+.pro-row:hover{
+	border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+	box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+*/
+
+.col {
+  float: left;
+  padding: 10px 0;
+}
+
+.col p{
+	font-size: 16.5px;
+}
+
+.col1 {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+}
+.col1 img{
+	height: 500px;
+	
+}
+
+.col2 {
+  width: 45%;
+}
+
+.col2 h1{
+	text-align: left;
+}
+
+/*Skills*/
+
+h1 !important{
+	font-size: 32px;
+	text-align: center;
+	font-weight: 900;
+}
+
+.skill .skill-heading h1{
+	font-size: 32px;
+	text-align: center;
+	font-weight: 900;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.skill .skill-heading p{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.skill{
+	margin-top: 50px;
+}
+
+.sk-col {
+  float: left;
+  padding: 5px 0;
+}
+
+.sk-col1 {
+  width: 20%;
+}
+
+.sk-col2 {
+  width: 20%;
+}
+
+.sk-col3 {
+  width: 20%;
+}
+
+.sk-col4 {
+  width: 20%;
+}
+
+.sk-col5 {
+  width: 20%;
+}
+
+.sk-col h2{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900;
+	color: #D63447;
+	font-family: "Arimo", sans-serif;
+	margin: 0;
+}
+
+.fp-viewing-sec3-1 .fp-controlArrow{
+	opacity: 0.1;
+}
+
+.sk-col h4{
+	text-align: center;
+	font-family: "Arimo", sans-serif;
+	font-size: 17px;
+	margin: 0;
+	color: white;
+	margin-bottom: 20px;
+}
+
+.skill-heading h1{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.sk-col1 p{
+	text-align: center;
+ 	color: black;
+	transition: color 1.2s ease;
+}
+.sk-col1 p:hover{
+	color: white;
+}
+
+.sk-col2 p{
+	text-align: center;
+	color: black;
+	transition: color 1.2s ease;
+}
+.sk-col2 p:hover{
+	color: white;
+}
+
+.sk-col3 p{
+	text-align: center;
+	color: black;
+	transition: color 1.2s ease;
+}
+.sk-col3 p:hover{
+	color: white;
+}
+
+.sk-col4 p{
+	text-align: center;
+	color: black;
+	transition: color 1.2s ease;
+}
+.sk-col4 p:hover{
+	color: white;
+}
+
+.sk-col5 p{
+	text-align: center;
+	color: black;
+	transition: color 1.2s ease;
+}
+.sk-col5 p:hover{
+	color: white;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+div.count-num {
+  transition: --num 1s;
+  counter-set: num var(--num);
+  font-size: 60px;
+  font-weight: 900;
+  color: #D63447;
+  font-family: "Arimo", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+div.count1::after {
+  content: counter(num);
+}
+div.count1:hover {
+  --num: 85;
+}
+
+div.count2::after {
+  content: counter(num);
+}
+div.count2:hover {
+  --num: 95;
+}
+
+div.count3::after {
+  content: counter(num);
+}
+div.count3:hover {
+  --num: 90;
+}
+
+div.count4::after {
+  content: counter(num);
+}
+div.count4:hover {
+  --num: 75;
+}
+
+.count{
+	font-size: 60px;
+	font-weight: 900;
+	color: #D63447;
+	font-family: "Arimo", sans-serif;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.skill{
+	margin-bottom: 50px;
+}
+
+/*Footer*/
+
+.footer{
+	width: 100%;
+	background-color: grey;
+	bottom: 0;
+	left: 0;
+}
+
+.foot-col{
+	float: left;
+	padding: 10px 0;
+	
+}
+
+.foot-col1{
+	width: 33.33%;
+}
+
+.foot-col2{
+	width: 33.33%;
+}
+
+.foot-col3{
+	width: 33.33%;
+}
+
+.foot-col ul{
+	list-style: none;
+	text-align: center;
+}
+
+.ul-ele{
+	font-size: 30px;
+	padding: 5px;
+}
+
+.ul-ele .nav-link{
+	padding: 0;
+	margin: 0;
+	font-size: 21px;
+}
+
+.foot-col3 ul li.ul-ele{
+	font-size: 21px;
+}
+

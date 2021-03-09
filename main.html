@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arihant Singh Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./css/text.css">
+    <link rel="stylesheet" href="./css/about-border.css">
+    <link rel='stylesheet' href='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css'>
+</head>
+<body>
+   
+   <audio class="beeper" id="menu-audio" src="./audio/menu.mp3"></audio>
+   <div id="fullpage">
+   
+   <div class="section">
+   <div class="home-bg-img">
+    <nav class="nav-main">
+        <ul class="site-nav-ul" id="myTopNav">
+           <li><a href="#sec1" id="home-nav" class="nav-link play-audio">Home</a></li>
+           <li><a href="#sec2" class="nav-link">Projects</a></li>
+           <li><a href="#sec3" class="nav-link play-audio">About Me</a></li>
+           <li><a href="contact.html" class="nav-link play-audio">Contact Me</a></li>
+        </ul>
+    </nav>
+      
+    <section class="home" id="home">
+   		<div class="container1">
+			<div class="box">
+				<div class="title">
+					<span class="block"></span>
+					<h1>Hi, I am Arihant Singh<span></span></h1>
+				</div>
+				<div class="role">
+					<div class="block"></div>
+					<h3>CSD Student at IIITD<span></span></h3>
+				</div>
+
+			</div>
+		</div>
+    </section>
+    </div>
+    </div>	
+    <!--<section class="project-section">
+    	<div class="project-heading">
+    		<h1>My Projects</h1>
+    	</div>
+    	<div class="row">
+			<div class="column">
+				<img src="images/placeholder.png" class="pro-one projects-img">
+			</div>
+			<div class="column">
+				<img src="images/placeholder.png" class="pro-two">
+			</div>
+			<div class="column">
+				<img src="images/placeholder.png" class="pro-three">
+			</div>	
+    	</div>
+    </section>-->
+    <div class="section"  id="test">
+    <section class ="test" id="projects">
+    	<div class="project-heading">
+    		<h1>My Projects</h1>
+    		<p>Click on the buttons</p>
+    	</div>
+    	
+    	<div id="myBtnContainer" class="project-btn">
+			  <button class="btn active play-audio" onclick="filterSelection('all')">All</button>
+			  <button class="btn play-audio" onclick="filterSelection('games')"> Games</button>
+			  <button class="btn play-audio" onclick="filterSelection('websites')"> Websites</button>
+			  <button class="btn play-audio" onclick="filterSelection('hardware')"> Hardware</button>
+		</div>
+
+		<div class='container'>
+		  <ul class = "project-ul">
+			<li class="project-li play-audio games filterDiv">
+			  <a class='normal pro1' href='https://github.com/arihant398/color-switch.git' target="_blank">
+				  <g>
+					<path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+				  </g>
+			  </a>
+			  <div class='info'>
+				<h3>Color Switch</h3>
+				<p>My own version of the famous game "Color Switch" made using javafx with a unique twist as players get a chance to use unique abilities as they collect more points and can even pause the game and save it to countinue from the same position later. The dificulty of the game also increases as the payer collects more points.</p>
+			  </div>
+			</li>
+			<li class="project-li play-audio websites filterDiv">
+			  <a class='normal pro2' href='https://typographydis.netlify.app/' target="_blank">
+				  <g>
+					<path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+				  </g>
+			  </a>
+			  <div class='info'>
+				<h3>Interactive Typography</h3>
+				<p>This is a project that I made using p5.js where I describe my 2020 in two word - "CHAOTIC" and "EXHAUSTING" and try to enhache their meaning using typography.</p>
+			  </div>
+			</li>
+			<li class="project-li play-audio hardware filterDiv">
+			  <a class='normal pro3' href='https://drive.google.com/file/d/1iYx9KXomEGbyBl4xteNn0TbIYT_b7flV/view?usp=sharing' target="_blank">
+				  <g>
+					<path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+				  </g>
+			  </a>
+			  <div class='info'>
+				<h3>Gravis</h3>
+				<p>This is a multiplayer game I made using arduino and processing. The goal of this game is to compete with other players to collect more points by controlling the boards using joysticks and increase your score by bouncing the ball or by collecting the bonus points that drop from above.</p>
+			  </div>
+			</li>
+			<li class="project-li play-audio filterDiv">
+			</li>	
+		  <li class="project-li play-audio hardware filterDiv">
+			  <a class='normal pro4' href='https://airifi.netlify.app/' target="_blank">
+				  <g>
+					<path d='M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z'></path>
+				  </g>
+			  </a>
+			  <div class='info'>
+				<h3>Airify</h3>
+				<p>This is a smart air purifier that I made using arduino. It has a sensor in it which checks the air quality index and if the air quality is above the safe limit then it utomatically starts working till the air quality improves.</p>
+			  </div>
+			</li>
+		  </ul>
+		</div>
+		</section>
+		</div>
+		<div class="section" id="test">
+		<section class="about-me" id="about">
+			<div class="slide">
+			<div class="about-heading">
+				<h1>About Me</h1>
+			</div>
+			<div class="pro-row">
+				<div class="col col1">
+					<img src="./images/home-bg-bw.png" alt="">
+				</div>
+				<div class="col col2">
+					<h1>Personal Info</h1>
+					<p>Hi, I am Arihant Singh, A computer science and design student at Indraprastha Institute of Information Technology.<br><br>I am a passionate software developer who tries to learn new things<br>and tries to analyze the making of the software used.</p>
+				</div>
+			</div>
+			</div>
+		</section>
+		
+		<div class="slide">
+		<section class="skill" id="skills">
+			<div class="skill-heading">
+				<h1>My Skills (%)</h1>
+				<p>Hover below each skill</p>
+			</div>
+			<div class="skill-row">
+				<div class="sk-col sk-col1">
+					<div class="count">85</div>
+					<h4>Python</h4>
+					<p>Python was the second programming language I came across and I quickly picked it up as it was quite easy to code in.<br> Although I am quite confident in my ability to code in python as I have made a few games like a poker game with graphics using pygame and I have also used python for competitive programming but since there a a lot of different libraries available, I would like to say that I am 85% sure about my skills in python.</p>
+				</div>
+				<div class="sk-col sk-col2">
+					<div class="count">95</div>
+					<h4>Java</h4>
+					<p>Java is a programming language that I have most used and created multiple projects on. It was easy for me to get started with this as the syntax was similar to that of c++.<br> I have made quite a few different types of projects using this like the famous game 'color switch'. This is also the language I have used the most for competitive programming. This is why I am 95% sure about my skills in java.</p>
+				</div>
+				<div class="sk-col sk-col3">
+					<div class="count">90</div>
+					<h4>HTML CSS</h4>
+					<p>HTML and CSS were the easiest for me to pickup out of all the ones listed here. I am quite good in using just these both to create websites, since I have create a few projects using just HTML and CSS. I am confident in my ability to use these languages.</p>
+				</div>
+				<div class="sk-col sk-col4">
+					<div class="count">75</div>
+					<h4>C++</h4>
+					<p>This was the first programming language I came across. I was not able to create a lot of projects using c++ as I had learnt this in class 12th and then I picked up python but I am still able to understand any code written in c++ and what it is supposed to do and that's why I am 75% confident about my skills in c++.</p>
+				</div>
+				<div class="sk-col sk-col5">
+					<div class="count">80</div>
+					<h4>Javascript</h4>
+					<p>I started learning and using javascript very recently but since I found it so interesting that's why I focused a lot of time in learning this and made a few games and landing screens but since I am not that affluent in multiple libraries that javascript has to offer, I am 80% confident in my skills in vanilla javascript.</p>
+				</div>
+			</div>
+		</section>
+		</div>
+	   </div>
+		<div class="section" id="test">
+		<section class="foot">
+			<div class="footer">
+				<div class="foot-row1">
+					<div class="foot-col foot-col1">
+						<ul>
+							<li><h1>Navigation</h1></li>
+							<li class="ul-ele"><a class="nav-link" href="#sec1">Home</a></li>
+							<li class="ul-ele"><a class="nav-link" href="#sec2">Project</a></li>
+							<li class="ul-ele"><a class="nav-link" href="#sec3">About Me</a> </li>
+							<li class="ul-ele"><a class="nav-link" href="contact.html">Contact Me</a></li>
+						</ul>
+					</div>
+					<div class="foot-col foot-col2">
+						 <ul>
+							<li><h1>Follow Me</h1></li>
+							 <li class="ul-ele"><a class="nav-link" href="https://github.com/arihant398">Github</a></li>
+							<li class="ul-ele"><a class="nav-link" href="https://www.linkedin.com/in/arihant-singh-a00606197">Linkedin</a></li>
+							<li class="ul-ele"><a class="nav-link" href="https://www.instagram.com/arihant__singh/">Instagram</a></li>
+							<li class="ul-ele"><a class="nav-link" href="https://www.facebook.com/arihant.singh.56">Facebook</a></li>
+						</ul>
+					</div>
+					<div class="foot-col foot-col3">
+						 <ul>
+							<li><h1>Email</h1></li>
+							<li class="ul-ele">arihantsingh64@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	   </div>
+   		</div>
+   
+    <script src="./js/script.js"></script>
+    <script src='https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js'></script>
+    <script src="./js/full-script.js"></script>
+	    
+    <script src="./js/fin-js.js"></script>
+
+	
+	
+</body>
+</html>

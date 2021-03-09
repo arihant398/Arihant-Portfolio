@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/contact-css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+<body>
+	<nav class="nav-main">
+        <ul class="site-nav-ul" id="myTopNav">
+           <li><a href="main.html" id="home-nav" class="nav-link play-audio">Home</a></li>
+           <li><a href="main.html#sec2" class="nav-link">Projects</a></li>
+           <li><a href="main.html#sec3" class="nav-link play-audio">About Me</a></li>
+           <li><a href="#" class="nav-link play-audio">Contact Me</a></li>
+        </ul>
+    </nav>
+
+	<div class="heading">
+		<h1>Contact Me</h1>
+	</div>
+	
+	<section class="contact">
+		<div class="main-contact">
+			<form id="myForm" class="main-form main-form-view">
+				<ol class="fields">
+					<li id="page1">
+						<label for="q1" id="l1" class="field-label field-label2">What's Your Name?</label>
+						<input type="text" id="q1" placeholder="Arihant Singh" class="field-input" autocomplete="off" required/>
+					</li>
+					<li id="page2">
+						<label for="q2" id="l2" class="field-label field-label2">What's Your E-Mail?</label>
+						<input type="text" id="q2" placeholder="abc@xyz.com" class="field-input" autocomplete="off" required/>
+					</li>
+					<li id="page3">
+						<div id="myBtnContainer" class="project-btn">
+							  <button id="btnID" class="btn active" >Next</button>
+						</div>
+					</li>
+					
+					<li id="message">
+						<div class="text-message">
+							<label for="q3" id="l3" class="field-label field-label3">What's Your Message?</label>
+							<textarea type="text" id="q3" placeholder="Enter Your Message" class="field-input field-input3" autocomplete="off" required></textarea>
+						</div>
+					</li>
+					<li id="submit-button">
+						<div class="project-btn" id="myBtnContainer">
+							<button id="btnID1" class="btn active" type="submit" value="Submit">Submit</button>
+						</div>
+					</li>
+				</ol>
+			</form>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script src="./js/contact-js.js">
+	</script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
